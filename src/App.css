@@ -1,0 +1,67 @@
+html{
+  background: #252525;
+  height: 100%;
+  display: flex;
+}
+body{
+  width: 100%;
+  margin: auto;
+}
+.App{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #f2f2f2;
+}
+.todo-list{
+  font-size: 15px;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+.button-red{
+  background: #e75858;
+  color: #f2f2f2;
+  text-decoration: solid;
+  border: none;
+  padding: 10px;
+}
+.button-green{
+  background: #58ce5e;
+  color: #f2f2f2;
+  border: none;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.file-input>.text{
+  margin-right: 10px;
+}
+
+.todo__text{
+  text-align: left;
+  margin-left: 25px;
+}
+.todo-list{
+  font-size: 18px;
+}
+
+.todo {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer; 
+}
+
+.todo.new-item {
+  opacity: 1;
+}
+
+.todo__state {
+  accent-color: #34495e;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
